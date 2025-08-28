@@ -13,7 +13,6 @@ cp .env.example .env
 ### 2. Construir a imagem Docker
 
 ```bash
-cd scripts/
 docker build -t bitbucket-storage-checker .
 ```
 ### 3. Executar o container
